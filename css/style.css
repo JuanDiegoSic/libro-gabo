@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/fondo.jpg);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  background-color: rgb(209, 205, 199);
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  padding: 10px;
+}
+
+.menu {
+  float: right;
+  margin: 24px;
+}
+
+.menu a {
+  color: black;
+  text-decoration:#610000;
+  padding: 25px;
+}
+
+.banner {
+  background-image: url(../img/gabo11.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(90, 16, 16);
+}
+
+.banner2 {
+  background-image: url(../img/novelaFoto.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+}
+
+.banner h1 {
+  text-align: right;
+  font-size: 80px;
+  padding: 150px 50px;
+}
+
+.tablaCategorias {
+  width: auto;
+  margin: auto;
+}
+.cat {
+  padding: 50px;
+}
+.boton_categorias {
+  width: 130px;
+  height: 50px;
+  background-color: #971111;
+  border-radius: 10px;
+  font-size: 25px;
+  margin: 5px;
+  padding: 10px;
+
+  text-align: center;
+  float: left;
+}
+
+.boton_categorias:hover {
+  opacity: 0.3;
+}
+
+.boton_categorias a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 5px 5px 5px;
+}
+
+.biografia {
+  background-color: black;
+  color: white;
+  padding: 20px 100px 70px 100px;
+  text-align: justify;
+}
+
+.biografia h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.premios {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.premios table {
+  padding: 30px 100px 30px 100px;
+}
+
+.premios h2 {
+  padding: 30px 0px;
+}
+
+.cuerpo h1 {
+  padding: 30px 0px;
+  color: #610000;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+.cuerpo h2 {
+  
+  color: #610000;
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.cuerpo table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 10px;
+  font-size: 28px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.cuerpo td{
+  margin: 15px;
+  padding: 30px;
+}
+
+.caracteristicas {
+  margin: 0;
+  text-align: center;
+  padding: 30px;
+}
+
+.historia {
+  background-image: url(../img/fondoNegro.jpg);
+  color: white;
+
+}
+
+.trama {
+  background-image: url(../img/fondoNegro.jpg);
+  color: white;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 10px;
+  font-size: 28px;
+  text-align: justify;
+  margin: 0 auto;
+
+}
+
+.trama h1 {
+  padding: 30px 0px;
+  color: #610000;
+  text-align: center;
+  font-size: 40px;
+}
+
+.premios h3 {
+  background-color: #971111;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+
+}
+
+.premios td {
+  text-align: left;
+}
+
+
+
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 100px 70px 100px;
+}
